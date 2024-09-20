@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <script type="module" defer src="../js/home.js"></script>
+    <title>Hexagonal</title>
+</head>
+<body>
+    <body>
+        <span class="message">Hexagonal by express</span>
+        <div class="container">
+            <div class="admin-product-form-container">
+                 <form id="myForm" action="/home" method="POST" enctype="multipart/form-data">
+                    <h3>add a new Product</h3>
+                    <input type="text" placeholder="Enter the product name" name="name" class="box">
+                    <input type="text" placeholder="Enter the brand of the product" name="brand" class="box">
+                    <input type="text" placeholder="Enter the product description" name="description" class="box">
+                    <input type="file" accept="image/png, image/jpeg, image/jpg" name="product_image" class="box">
+                    <input type="submit" class="btn" name="add" value="add">
+                </form>
+            </div>
+            <div class="product-display">
+                <table class="product-display-table">
+                    <thead>
+                        <tr>
+                            <td>Product name</td>
+                            <td>Product brand</td>
+                            <td>Product description</td>
+                            <td>Accion</td>
+                        </tr>
+                    </thead>
+                    <tbody id="myTbody">
+                        <tr>
+                            <td><img src="//" height="100" alt=""></td>
+                            <td contenteditable></td>
+                            <td></td>
+                            <td>
+                                <a href="#" class="btn"> edit </a>
+                                <a href="#" class="btn"> delete </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</body>
+</html>
