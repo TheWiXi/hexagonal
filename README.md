@@ -27,8 +27,8 @@ Asegúrate de tener instalados los siguientes programas:
 Clona el repositorio del proyecto en tu máquina local:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-proyecto.git
-cd tu-proyecto
+git clone https://github.com/TheWiXi/hexagonal.git
+cd hexagonal
 ```
 
 ### 2. Instalar Dependencias
